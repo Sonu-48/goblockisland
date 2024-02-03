@@ -19,19 +19,20 @@ const theme = createTheme({
         root: ({ ownerState }) => ({
           ...(ownerState.variant === "contained" &&
             ownerState.color === "primary" && {
-              backgroundColor: "#000080",
+              backgroundColor: "#d02053",
               color: "#fff",
-              borderRadius: "4px",
-              fontWeight: 500,
-              fontSize: "16px",
+              borderRadius: "10px",
+              border:'2px solid #d020532px solid #d02053',
+              fontWeight: 600,
+              fontSize: "20px",
               padding: "12px 20px",
               textTransform: "capitalize",
-              fontFamily:"'Futura, sans-serif'",
-              borderBottom:'3px solid #1a2a6b',
+              // fontFamily:"'Futura, sans-serif'",
+              // borderBottom:'3px solid #1a2a6b',
               "&:hover": {
-                backgroundColor: "#b4d56c",
-                color: "#fff",
-                borderColor:'#a0c841'
+                backgroundColor: "#ABE1FA",
+                border:'2px solid #053f73',
+                color:'#053f73',
               },
             }),
         }),
@@ -47,7 +48,7 @@ const theme = createTheme({
     MuiOutlinedInput: {
       styleOverrides: {
         root: {
-          borderRadius: "50px",
+          borderRadius: "10px",
           // paddingRight:'5px',
           "&$focused": {
             border: "1px solid black",
@@ -111,7 +112,7 @@ const theme = createTheme({
         root: {
           color: "#787878",
           fontWeight: 600,
-          fontSize: "18px",
+          fontSize: "15px",
           textTransform: "capitalize",
           "&.Mui-selected": {
             color: "#4878bf",
@@ -126,7 +127,7 @@ const theme = createTheme({
       styleOverrides: {
         indicator: {
           background: "#4878bf",
-          height: "1px",
+          height: "2px",
         },
       },
     },
