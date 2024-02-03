@@ -106,6 +106,7 @@ const Wrapper = styled("div")({
     alignItems:'center',
     justifyContent:'space-between',
     padding:'10px 20px',
+    background: "#053f73",
   }
 });
 
