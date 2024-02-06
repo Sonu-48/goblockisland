@@ -1,16 +1,14 @@
-import { Box } from "@mui/material";
-import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import Bannerpage from "../pages/Home/Bannerpage";
+// import { Box } from "@mui/material";
+// import React from "react";
+// import Footer from "./Footer";
+// import BannerSection from "../pages/Home/BannerPage/BannerSection";
 
-const HomeLayout=()=>{
-    return(
-            <Box>
-                <Header/>
-                <Bannerpage/>
-                <Footer/>
-            </Box>
-    );   
-}
-export default HomeLayout
+// const HomeLayout=()=>{
+//     return(
+//             <Box>
+//                 <BannerSection/>
+//                 <Footer/>
+//             </Box>
+//     );   
+// }
+// export default HomeLayout

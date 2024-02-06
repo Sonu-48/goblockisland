@@ -24,9 +24,10 @@ const typography={
 
     },
     h4:{
-        color:'#fff',
+        color:'#303133',
         fontSize:'20px',
-        fontWeight:600,
+        fontWeight:400,
+        lineHeight:'1.5',
         "@media screen and (max-width:600px)":{
             fontSize:'18px',
         }
