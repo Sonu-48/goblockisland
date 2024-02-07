@@ -43,8 +43,8 @@ const typography={
     },
     h6:{
         fontSize:'16px',
-        fontWeight:'700',
-        color:'#fff',
+        fontWeight:'600',
+        color:'#303133',
         "@media screen and (max-width:600px)":{
             fontSize:'14px',
         }

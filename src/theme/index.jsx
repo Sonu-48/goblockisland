@@ -123,11 +123,12 @@ const theme = createTheme({
     MuiDialog: {
       styleOverrides: {
         paper: {
-          maxWidth: "850px",
+          maxWidth: "200px",
           width: "100%",
           borderRadius: "8px",
           // padding:'20px 0px',
           margin:'10px',
+          padding:'20px',
           boxShadow:
             "0 3.3px 39.5px -27px rgba(255,255,255,.04), 0 4px 65.1px -27px rgba(255,255,255,.08400000000000001), 0 5.1px 113.7px -27px rgba(255,255,255,.083), 0 8px 246px -27px rgba(255,255,255,.079)",
         },
@@ -141,11 +142,12 @@ const theme = createTheme({
           fontSize: "15px",
           textTransform: "capitalize",
           "&.Mui-selected": {
-            color: "#4878bf",
+            color: "rgb(62, 217, 204)",
             // borderBottom: "2px solid #4878bf",
             // background:'4878bf',
             // color:'#ffff'
           },
+         
         },
       },
     },
@@ -154,7 +156,11 @@ const theme = createTheme({
         indicator: {
           background: "#4878bf",
           height: "2px",
+          display:'none',
         },
+        flexContainer:{
+          alignItems:'start',
+        }
       },
     },
     MuiDayCalendar: {
@@ -190,6 +196,13 @@ const theme = createTheme({
         }
       }
     }
+  },
+  MuiAccordion:{
+      styleOverrides:{
+        root:{
+          marginBottom:'15px',
+        }
+      }
   },
   MuiAccordionSummary: {
     styleOverrides: {
